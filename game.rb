@@ -28,7 +28,7 @@ class Game
     end
     if @herro.helth <= 0 || @dragon.helth <= 0
       if @dragon.helth <= 0
-         puts "Hero gewinnt"
+          puts "Hero gewinnt"
          break
       end
       if @herro.helth <= 0
